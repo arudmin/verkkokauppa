@@ -1,0 +1,133 @@
+<!doctype html>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}?{{timestamp}}" media="screen">
+
+{%- set host = data.initialModel.classicHost -%}
+{%- set categoryId = data.productPaginator.selectedCategoryId -%}
+{%- set glob={} -%}
+{%- set items = data['productPaginator']['products']['1']['results'] -%}
+
+{%- for item in data['categories']['items'] -%}
+  {%- if item.categoryId == categoryId -%}
+    {%- set _ = glob.update({'title': item.categoryName}) -%}
+    {%- set _ = glob.update({'childIds': item.childIds}) -%}
+    {%- set _ = glob.update({'parentIds': item.parentIds}) -%}
+  {%- endif -%}
+{%- endfor -%}
+
+<title>{{glob.title}}</title>
+
+{%- for id in glob.parentIds + glob.childIds -%}
+  {%- for item in data['categories']['items'] if item.categoryId == id -%}
+      {%- set _ = glob.update({id: item.categoryName}) -%}
+  {%- endfor -%}
+{%- endfor -%}
+
+<div class="menu">
+
+
+<h1>
+{%- for id in glob.parentIds -%}
+  <a href="/catalog/{{id}}/view">{{glob[id]}}</a> →&nbsp;
+{%- endfor -%}
+{{glob.title|safe}}
+</h1>
+
+<h4>
+  {% if glob.childIds %}
+    {%- for id in glob.childIds -%}
+      <a href="/catalog/{{id}}/view">{{glob[id]}}</a>&nbsp;
+    {%- endfor -%}
+  {% endif %}
+</h4>
+
+</div>
+
+<div class="button-group filter-button-group" data-filter-group="brand">
+  <button data-filter="">All Brands</button>
+{% for brand in brands %}
+  <button data-filter=".{{brand}}">{{brand|capitalize}}</button>
+{% endfor %}
+</div>
+<div class="button-group filter-button-group" data-filter-group="avail">
+  <button data-filter="">All Stores</button>
+  <button data-filter=".immediately">In Helsinki</button>
+</div>
+  <!-- <button data-filter=".samsung">Samsung</button> -->
+  <!-- <button data-filter=".sony">Sony</button> -->
+  <!-- <button data-filter=":not(.lg)">not LG</button> -->
+  <!-- <button data-filter=".metal:not(.transition)">metal but not transition</button> -->
+</div>
+
+<div class="grid">
+  <!-- <div class="grid-sizer"></div> -->
+{% for row in items if row.price > 0 and row.availability.storeStocks.hki %}
+  {%- if row.availability.storeStocks.hki.state is defined -%}
+    {%- set availability = row.availability.storeStocks.hki.state -%}
+  {%- endif -%}
+  <div class="grid-item {{row.brandSlug}} {{availability}}" data-price="{{row.price}}" data-pid="{{row.pid}}" data-priceWithTax="{{row.priceWithTax}}" data-name="{{row.name|escape}}" data-productId="row.productId" data-brandName="{{row.brandName}}" data-isInStoresOnly="{{row.availability.isInStoresOnly}}" data-isPurchasable="{{row.availability.isPurchasable}}" data-isPurchasable="{{row.availability.isPurchasable}}"  data-isReleased="{{row.availability.isReleased}}">
+
+    <div id="name"><a href="{{host}}{{row.href}}">{{row.name.split('"')[0]}}</a></div>
+    <div id="price">
+      <p><span>Цена:</span><b>{{row.priceWithTax}} ≈ {{(cur_eur|float|round(1,'ceil')*row.priceWithTax)|round(-2,'ceil')|int}} ₽</b></p>
+      <p><span>На экспорт:</span><b>{{row.price}} ≈ {{(cur_eur|float|round(1,'ceil')*row.price)|round(-2,'ceil')|int}} ₽</b></p>
+      <p><span>Инвоис:</span><b>{{(row.priceWithTax-row.price)|round(2)}} ≈ {{(cur_eur|float|round(1,'ceil')*(row.priceWithTax-row.price))|round(-2,'ceil')|int}} ₽</b></p>
+    </div>
+    <img width=200 alt src="{{row.images['300']}}"/>
+
+  </div>
+{% endfor %}
+</div>
+
+
+<script type="text/javascript">
+
+// init Isotope
+var $grid = $('.grid').isotope({
+  // options
+});
+// filter items on button click
+$('.filter-button-group').on( 'click', 'button', function() {
+  var filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+});
+
+
+
+
+// store filter for each group
+var filters = {};
+
+$('.filter-button-group').on( 'click', 'button', function() {
+  var $this = $(this);
+  // get group key
+  var $buttonGroup = $this.parents('.button-group');
+  var filterGroup = $buttonGroup.attr('data-filter-group');
+  // set filter for group
+  filters[ filterGroup ] = $this.attr('data-filter');
+  // combine filters
+  var filterValue = concatValues( filters );
+  // set filter for Isotope
+  $grid.isotope({ filter: filterValue });
+});
+
+// change is-checked class on buttons
+$('.button-group').each( function( i, buttonGroup ) {
+  var $buttonGroup = $( buttonGroup );
+  $buttonGroup.on( 'click', 'button', function() {
+    $buttonGroup.find('.is-checked').removeClass('is-checked');
+    $( this ).addClass('is-checked');
+  });
+});
+
+// flatten object by concatting values
+function concatValues( obj ) {
+  var value = '';
+  for ( var prop in obj ) {
+    value += obj[ prop ];
+  }
+  return value;
+}
+
+</script>

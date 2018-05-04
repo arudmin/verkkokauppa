@@ -1,0 +1,1706 @@
+
+{
+  "auth": {
+    "time": 1521111660
+  },
+  "availabilities": {
+    "itemsByPid": {},
+    "pidTimestamp": {},
+    "pids": [],
+    "pidsFailed": [],
+    "pidsFetching": []
+  },
+  "business": {
+    "businessWeeks": [
+      {
+        "businessHours": [
+          {
+            "compactWeekdays": "ma–pe",
+            "hours": "9–21",
+            "isActive": true,
+            "longWeekdays": "maanantai – perjantai"
+          },
+          {
+            "compactWeekdays": "la",
+            "hours": "9–19",
+            "isActive": false,
+            "longWeekdays": "lauantai"
+          },
+          {
+            "compactWeekdays": "su",
+            "hours": "11–19",
+            "isActive": false,
+            "longWeekdays": "sunnuntai"
+          }
+        ],
+        "businessIds": [
+          "oul",
+          "pir",
+          "rai"
+        ],
+        "isOpen": true,
+        "weeks": [
+          "2018-W11"
+        ]
+      },
+      {
+        "businessHours": [
+          {
+            "compactWeekdays": "ma–la",
+            "hours": "9–21",
+            "isActive": true,
+            "longWeekdays": "maanantai – lauantai"
+          },
+          {
+            "compactWeekdays": "su",
+            "hours": "11–19",
+            "isActive": false,
+            "longWeekdays": "sunnuntai"
+          }
+        ],
+        "businessIds": [
+          "js"
+        ],
+        "isOpen": true,
+        "weeks": [
+          "2018-W11"
+        ]
+      },
+      {
+        "businessHours": [
+          {
+            "compactWeekdays": "ma–pe",
+            "hours": "9–21",
+            "isActive": true,
+            "longWeekdays": "maanantai – perjantai"
+          },
+          {
+            "compactWeekdays": "la",
+            "hours": "9–18",
+            "isActive": false,
+            "longWeekdays": "lauantai"
+          },
+          {
+            "compactWeekdays": "su",
+            "hours": "12–18",
+            "isActive": false,
+            "longWeekdays": "sunnuntai"
+          }
+        ],
+        "businessIds": [
+          "pak"
+        ],
+        "isOpen": true,
+        "weeks": [
+          "2018-W11"
+        ]
+      },
+      {
+        "businessHours": [
+          {
+            "compactWeekdays": "ma–pe",
+            "hours": "9–21",
+            "isActive": false,
+            "longWeekdays": "maanantai – perjantai"
+          },
+          {
+            "compactWeekdays": "la",
+            "hours": "9–19",
+            "isActive": false,
+            "longWeekdays": "lauantai"
+          },
+          {
+            "compactWeekdays": "su",
+            "hours": "11–19",
+            "isActive": false,
+            "longWeekdays": "sunnuntai"
+          }
+        ],
+        "businessIds": [
+          "oul",
+          "pir",
+          "rai"
+        ],
+        "isOpen": false,
+        "weeks": [
+          "2018-W12"
+        ]
+      },
+      {
+        "businessHours": [
+          {
+            "compactWeekdays": "ma–la",
+            "hours": "9–21",
+            "isActive": false,
+            "longWeekdays": "maanantai – lauantai"
+          },
+          {
+            "compactWeekdays": "su",
+            "hours": "11–19",
+            "isActive": false,
+            "longWeekdays": "sunnuntai"
+          }
+        ],
+        "businessIds": [
+          "js"
+        ],
+        "isOpen": false,
+        "weeks": [
+          "2018-W12"
+        ]
+      },
+      {
+        "businessHours": [
+          {
+            "compactWeekdays": "ma–pe",
+            "hours": "9–21",
+            "isActive": false,
+            "longWeekdays": "maanantai – perjantai"
+          },
+          {
+            "compactWeekdays": "la",
+            "hours": "9–18",
+            "isActive": false,
+            "longWeekdays": "lauantai"
+          },
+          {
+            "compactWeekdays": "su",
+            "hours": "12–18",
+            "isActive": false,
+            "longWeekdays": "sunnuntai"
+          }
+        ],
+        "businessIds": [
+          "pak"
+        ],
+        "isOpen": false,
+        "weeks": [
+          "2018-W12"
+        ]
+      },
+      {
+        "businessHours": [
+          {
+            "compactWeekdays": "ma–to",
+            "hours": "9–21",
+            "isActive": false,
+            "longWeekdays": "maanantai – torstai"
+          },
+          {
+            "compactWeekdays": "pe",
+            "hours": "11–19",
+            "isActive": false,
+            "longWeekdays": "perjantai"
+          },
+          {
+            "compactWeekdays": "la",
+            "hours": "9–19",
+            "isActive": false,
+            "longWeekdays": "lauantai"
+          },
+          {
+            "compactWeekdays": "su",
+            "hours": "11–19",
+            "isActive": false,
+            "longWeekdays": "sunnuntai"
+          }
+        ],
+        "businessIds": [
+          "oul",
+          "pir",
+          "rai"
+        ],
+        "isOpen": false,
+        "weeks": [
+          "2018-W13"
+        ]
+      },
+      {
+        "businessHours": [
+          {
+            "compactWeekdays": "ma–to",
+            "hours": "9–21",
+            "isActive": false,
+            "longWeekdays": "maanantai – torstai"
+          },
+          {
+            "compactWeekdays": "pe",
+            "hours": "11–19",
+            "isActive": false,
+            "longWeekdays": "perjantai"
+          },
+          {
+            "compactWeekdays": "la",
+            "hours": "9–21",
+            "isActive": false,
+            "longWeekdays": "lauantai"
+          },
+          {
+            "compactWeekdays": "su",
+            "hours": "11–19",
+            "isActive": false,
+            "longWeekdays": "sunnuntai"
+          }
+        ],
+        "businessIds": [
+          "js"
+        ],
+        "isOpen": false,
+        "weeks": [
+          "2018-W13"
+        ]
+      },
+      {
+        "businessHours": [
+          {
+            "compactWeekdays": "ma–to",
+            "hours": "9–21",
+            "isActive": false,
+            "longWeekdays": "maanantai – torstai"
+          },
+          {
+            "compactWeekdays": "pe",
+            "hours": "12–18",
+            "isActive": false,
+            "longWeekdays": "perjantai"
+          },
+          {
+            "compactWeekdays": "la",
+            "hours": "9–18",
+            "isActive": false,
+            "longWeekdays": "lauantai"
+          },
+          {
+            "compactWeekdays": "su",
+            "hours": "12–18",
+            "isActive": false,
+            "longWeekdays": "sunnuntai"
+          }
+        ],
+        "businessIds": [
+          "pak"
+        ],
+        "isOpen": false,
+        "weeks": [
+          "2018-W13"
+        ]
+      },
+      {
+        "businessHours": [
+          {
+            "compactWeekdays": "ma",
+            "hours": "11–19",
+            "isActive": false,
+            "longWeekdays": "maanantai"
+          },
+          {
+            "compactWeekdays": "ti–pe",
+            "hours": "9–21",
+            "isActive": false,
+            "longWeekdays": "tiistai – perjantai"
+          },
+          {
+            "compactWeekdays": "la",
+            "hours": "9–19",
+            "isActive": false,
+            "longWeekdays": "lauantai"
+          },
+          {
+            "compactWeekdays": "su",
+            "hours": "11–19",
+            "isActive": false,
+            "longWeekdays": "sunnuntai"
+          }
+        ],
+        "businessIds": [
+          "oul",
+          "pir",
+          "rai"
+        ],
+        "isOpen": false,
+        "weeks": [
+          "2018-W14"
+        ]
+      },
+      {
+        "businessHours": [
+          {
+            "compactWeekdays": "ma",
+            "hours": "11–19",
+            "isActive": false,
+            "longWeekdays": "maanantai"
+          },
+          {
+            "compactWeekdays": "ti–la",
+            "hours": "9–21",
+            "isActive": false,
+            "longWeekdays": "tiistai – lauantai"
+          },
+          {
+            "compactWeekdays": "su",
+            "hours": "11–19",
+            "isActive": false,
+            "longWeekdays": "sunnuntai"
+          }
+        ],
+        "businessIds": [
+          "js"
+        ],
+        "isOpen": false,
+        "weeks": [
+          "2018-W14"
+        ]
+      },
+      {
+        "businessHours": [
+          {
+            "compactWeekdays": "ma",
+            "hours": "12–18",
+            "isActive": false,
+            "longWeekdays": "maanantai"
+          },
+          {
+            "compactWeekdays": "ti–pe",
+            "hours": "9–21",
+            "isActive": false,
+            "longWeekdays": "tiistai – perjantai"
+          },
+          {
+            "compactWeekdays": "la",
+            "hours": "9–18",
+            "isActive": false,
+            "longWeekdays": "lauantai"
+          },
+          {
+            "compactWeekdays": "su",
+            "hours": "12–18",
+            "isActive": false,
+            "longWeekdays": "sunnuntai"
+          }
+        ],
+        "businessIds": [
+          "pak"
+        ],
+        "isOpen": false,
+        "weeks": [
+          "2018-W14"
+        ]
+      }
+    ],
+    "currentInFooter": 0,
+    "hasFailed": false,
+    "isLoading": false,
+    "max": 3,
+    "min": 0,
+    "now": {
+      "date": "2018-03-15",
+      "dateAsWeek": "2018-W11-4",
+      "invalidatesAt": "2018-03-15T12:00:00.000Z",
+      "localeDate": "15.3.2018",
+      "longLocaleDate": "15. maaliskuuta 2018",
+      "ordinalDate": "2018-074"
+    },
+    "specialDays": [
+      {
+        "businessIds": [
+          "oul",
+          "js",
+          "pir",
+          "rai"
+        ],
+        "date": "2018-03-30",
+        "dateAsWeek": "2018-W13-5",
+        "defaultHours": "9–21",
+        "hours": "11–19",
+        "localeDate": "30.3.2018",
+        "longLocaleDate": "30. maaliskuuta 2018",
+        "ordinalDate": "2018-089",
+        "reason": "Pitkäperjantai",
+        "specialCloses": "19:00",
+        "specialOpens": "11:00"
+      },
+      {
+        "businessIds": [
+          "pak"
+        ],
+        "date": "2018-03-30",
+        "dateAsWeek": "2018-W13-5",
+        "defaultHours": "9–21",
+        "hours": "12–18",
+        "localeDate": "30.3.2018",
+        "longLocaleDate": "30. maaliskuuta 2018",
+        "ordinalDate": "2018-089",
+        "reason": "Pitkäperjantai",
+        "specialCloses": "18:00",
+        "specialOpens": "12:00"
+      },
+      {
+        "businessIds": [
+          "oul",
+          "js",
+          "pir",
+          "rai"
+        ],
+        "date": "2018-04-01",
+        "dateAsWeek": "2018-W13-7",
+        "defaultHours": "11–19",
+        "hours": "11–19",
+        "localeDate": "1.4.2018",
+        "longLocaleDate": "1. huhtikuuta 2018",
+        "ordinalDate": "2018-091",
+        "reason": "Pääsiäispäivä",
+        "specialCloses": "19:00",
+        "specialOpens": "11:00"
+      },
+      {
+        "businessIds": [
+          "pak"
+        ],
+        "date": "2018-04-01",
+        "dateAsWeek": "2018-W13-7",
+        "defaultHours": "12–18",
+        "hours": "12–18",
+        "localeDate": "1.4.2018",
+        "longLocaleDate": "1. huhtikuuta 2018",
+        "ordinalDate": "2018-091",
+        "reason": "Pääsiäispäivä",
+        "specialCloses": "18:00",
+        "specialOpens": "12:00"
+      },
+      {
+        "businessIds": [
+          "oul",
+          "js",
+          "pir",
+          "rai"
+        ],
+        "date": "2018-04-02",
+        "dateAsWeek": "2018-W14-1",
+        "defaultHours": "9–21",
+        "hours": "11–19",
+        "localeDate": "2.4.2018",
+        "longLocaleDate": "2. huhtikuuta 2018",
+        "ordinalDate": "2018-092",
+        "reason": "Toinen pääsiäispäivä",
+        "specialCloses": "19:00",
+        "specialOpens": "11:00"
+      },
+      {
+        "businessIds": [
+          "pak"
+        ],
+        "date": "2018-04-02",
+        "dateAsWeek": "2018-W14-1",
+        "defaultHours": "9–21",
+        "hours": "12–18",
+        "localeDate": "2.4.2018",
+        "longLocaleDate": "2. huhtikuuta 2018",
+        "ordinalDate": "2018-092",
+        "reason": "Toinen pääsiäispäivä",
+        "specialCloses": "18:00",
+        "specialOpens": "12:00"
+      }
+    ]
+  },
+  "cart": {
+    "byUuid": {},
+    "enabled": true,
+    "latestPid": null,
+    "loading": false,
+    "notifications": [],
+    "uuid": "",
+    "uuidIsAuthed": false,
+    "uuids": [],
+    "visibility": false
+  },
+  "categories": {
+    "details": [],
+    "failedIds": [],
+    "hasRoot": true,
+    "isLoadingRoot": false,
+    "items": [
+      {
+        "categoryId": "0",
+        "categoryName": "Tuotealueet",
+        "childIds": [
+          "28a",
+          "31a",
+          "25a",
+          "23a",
+          "58a",
+          "19a",
+          "6a",
+          "20a",
+          "56a",
+          "16a",
+          "59a",
+          "26a",
+          "2a",
+          "3a",
+          "9a",
+          "24a",
+          "27a",
+          "22a",
+          "30a",
+          "21a",
+          "5a",
+          "18a",
+          "14a",
+          "55a",
+          "10a"
+        ],
+        "isRoot": true,
+        "parentIds": []
+      },
+      {
+        "categoryId": "28a",
+        "categoryName": "Audio ja hifi",
+        "childIds": [
+          "806b",
+          "1527b",
+          "802b",
+          "1525b",
+          "803b",
+          "1524b",
+          "1526b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "31a",
+        "categoryName": "Grillaus ja kokkaus",
+        "childIds": [
+          "848b",
+          "851b",
+          "1485b",
+          "852b",
+          "1488b",
+          "1487b",
+          "1486b",
+          "1436b",
+          "1408b",
+          "849b",
+          "1427b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "25a",
+        "categoryName": "Kaapelit",
+        "childIds": [
+          "716b",
+          "719b",
+          "712b",
+          "714b",
+          "721b",
+          "713b",
+          "711b",
+          "720b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "23a",
+        "categoryName": "Kamerat",
+        "childIds": [
+          "1459b",
+          "880b",
+          "668b",
+          "671b",
+          "1404b",
+          "670b",
+          "665b",
+          "816b",
+          "666b",
+          "673b",
+          "669b",
+          "1423b",
+          "1452b",
+          "812b",
+          "730b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "58a",
+        "categoryName": "Kellot",
+        "childIds": [
+          "1506b",
+          "1508b",
+          "1510b",
+          "1507b",
+          "1509b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "19a",
+        "categoryName": "Kodinkoneet",
+        "childIds": [
+          "787b",
+          "1405b",
+          "1395b",
+          "798b",
+          "789b",
+          "1437b",
+          "1396b",
+          "793b",
+          "1394b",
+          "1393b",
+          "811b",
+          "1410b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "6a",
+        "categoryName": "Komponentit",
+        "childIds": [
+          "19b",
+          "710b",
+          "22b",
+          "25b",
+          "29b",
+          "1412b",
+          "30b",
+          "706b",
+          "39b",
+          "41b",
+          "46b",
+          "47b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "20a",
+        "categoryName": "Koti ja valaistus",
+        "childIds": [
+          "841b",
+          "1523b",
+          "1590b",
+          "639b",
+          "1536b",
+          "1593b",
+          "815b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "56a",
+        "categoryName": "Laukut ja matkailu",
+        "childIds": [
+          "1543b",
+          "1483b",
+          "1474b",
+          "1475b",
+          "1535b",
+          "1481b",
+          "1490b",
+          "1476b",
+          "1541b",
+          "1482b",
+          "1491b",
+          "1477b",
+          "1484b",
+          "1478b",
+          "1479b",
+          "1480b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "16a",
+        "categoryName": "Lelut",
+        "childIds": [
+          "1548b",
+          "373b",
+          "1549b",
+          "1537b",
+          "1550b",
+          "1551b",
+          "1552b",
+          "1553b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "59a",
+        "categoryName": "Lemmikit",
+        "childIds": [
+          "1578b",
+          "1571b",
+          "1580b",
+          "1579b",
+          "1572b",
+          "1567b",
+          "1581b",
+          "1570b",
+          "1573b",
+          "1576b",
+          "1565b",
+          "1575b",
+          "1574b",
+          "1569b",
+          "1566b",
+          "1577b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "26a",
+        "categoryName": "Musiikki",
+        "childIds": [
+          "765b",
+          "771b",
+          "1594b",
+          "773b",
+          "1546b",
+          "813b",
+          "1402b",
+          "768b",
+          "769b",
+          "776b",
+          "764b",
+          "775b",
+          "770b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "2a",
+        "categoryName": "Muut tuotteet",
+        "childIds": [
+          "5b",
+          "80b",
+          "84b",
+          "1406b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "3a",
+        "categoryName": "Oheislaitteet",
+        "childIds": [
+          "99b",
+          "34b",
+          "108b",
+          "109b",
+          "799b",
+          "343b",
+          "64b",
+          "319b",
+          "101b",
+          "1562b",
+          "366b",
+          "7b",
+          "298b",
+          "715b",
+          "116b",
+          "882b",
+          "117b",
+          "1563b",
+          "118b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "9a",
+        "categoryName": "Ohjelmistot",
+        "childIds": [
+          "1417b",
+          "1559b",
+          "1420b",
+          "1424b",
+          "1418b",
+          "1416b",
+          "1419b",
+          "1422b",
+          "1421b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "24a",
+        "categoryName": "Pelit ja viihde",
+        "childIds": [
+          "1561b",
+          "1413b",
+          "1540b",
+          "681b",
+          "680b",
+          "697b",
+          "685b",
+          "686b",
+          "1588b",
+          "678b",
+          "723b",
+          "684b",
+          "682b",
+          "883b",
+          "683b",
+          "1542b",
+          "677b",
+          "760b",
+          "679b",
+          "1400b",
+          "1539b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "27a",
+        "categoryName": "Pienkoneet",
+        "childIds": [
+          "1415b",
+          "1547b",
+          "1595b",
+          "1598b",
+          "1461b",
+          "800b",
+          "786b",
+          "795b",
+          "1599b",
+          "1556b",
+          "784b",
+          "788b",
+          "1596b",
+          "1597b",
+          "785b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "22a",
+        "categoryName": "Puhelimet",
+        "childIds": [
+          "1503b",
+          "657b",
+          "660b",
+          "659b",
+          "661b",
+          "1457b",
+          "1425b",
+          "658b",
+          "1426b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "30a",
+        "categoryName": "Ruoka ja juoma",
+        "childIds": [
+          "820b",
+          "840b",
+          "1522b",
+          "1456b",
+          "1432b",
+          "837b",
+          "836b",
+          "838b",
+          "1528b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "21a",
+        "categoryName": "Tarvike ja toimisto",
+        "childIds": [
+          "557b",
+          "566b",
+          "1407b",
+          "648b",
+          "558b",
+          "567b",
+          "564b",
+          "656b",
+          "814b",
+          "559b",
+          "568b",
+          "569b",
+          "696b",
+          "655b",
+          "1584b",
+          "624b",
+          "651b",
+          "562b",
+          "627b",
+          "1587b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "5a",
+        "categoryName": "Tietokoneet",
+        "childIds": [
+          "31b",
+          "161b",
+          "159b",
+          "160b",
+          "817b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "18a",
+        "categoryName": "TV ja video",
+        "childIds": [
+          "445b",
+          "733b",
+          "437b",
+          "1557b",
+          "724b",
+          "440b",
+          "441b",
+          "881b",
+          "438b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "14a",
+        "categoryName": "Urheilu",
+        "childIds": [
+          "1454b",
+          "1455b",
+          "1460b",
+          "330b",
+          "1534b",
+          "1453b",
+          "1517b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "55a",
+        "categoryName": "Vauvat ja perhe",
+        "childIds": [
+          "1500b",
+          "1446b",
+          "1443b",
+          "1501b",
+          "1493b",
+          "1444b",
+          "1448b",
+          "1449b",
+          "1445b",
+          "1492b",
+          "1450b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "10a",
+        "categoryName": "Verkko",
+        "childIds": [
+          "1515b",
+          "1516b",
+          "171b",
+          "1564b",
+          "63b",
+          "175b",
+          "1560b",
+          "173b",
+          "73b",
+          "176b",
+          "478b",
+          "761b",
+          "74b"
+        ],
+        "parentIds": []
+      },
+      {
+        "categoryId": "15a",
+        "categoryName": "Palvelut",
+        "childIds": [
+          "336b",
+          "334b",
+          "835b"
+        ],
+        "isRoot": true,
+        "parentIds": []
+      },
+      {
+        "categoryId": "336b",
+        "categoryName": "Asennuspalvelut",
+        "childIds": [
+          "2758c"
+        ],
+        "parentIds": [
+          "15a"
+        ]
+      },
+      {
+        "categoryId": "334b",
+        "categoryName": "Huoltopalvelut",
+        "childIds": [],
+        "parentIds": [
+          "15a"
+        ]
+      },
+      {
+        "categoryId": "835b",
+        "categoryName": "Liittymät",
+        "childIds": [
+          "6459c",
+          "6606c",
+          "10205c",
+          "10802c",
+          "10095c",
+          "6460c",
+          "6458c",
+          "10808c"
+        ],
+        "parentIds": [
+          "15a"
+        ]
+      },
+      {
+        "categoryId": "706b",
+        "categoryName": "Näytönohjaimet",
+        "childIds": [
+          "5501c",
+          "10243c",
+          "11468c",
+          "11597c",
+          "5516c",
+          "6350c",
+          "11164c",
+          "10432c",
+          "11551c",
+          "11309c",
+          "11268c",
+          "11253c",
+          "11243c",
+          "5528c"
+        ],
+        "parentIds": [
+          "6a"
+        ]
+      },
+      {
+        "categoryId": "11468c",
+        "categoryName": "AMD Radeon RX 500-sarja",
+        "childIds": [],
+        "parentIds": [
+          "6a",
+          "706b"
+        ]
+      }
+    ],
+    "loadingIds": []
+  },
+  "connection": {
+    "errors": {},
+    "fetch502Count": 0,
+    "last502Time": 0,
+    "lastErrorMessage": "",
+    "lastErrorStatus": 0,
+    "lastErrorTime": 0,
+    "seconds502": 0,
+    "show502": false
+  },
+  "document": {
+    "breakpoint": {},
+    "breakpointCSS": "",
+    "headerIsHidden": false,
+    "headerIsSticky": true,
+    "modal": "",
+    "scrolledAtTop": true,
+    "searchIsActive": false,
+    "sidebarExpanded": false,
+    "sidebarPersistant": true
+  },
+  "fluidPopup": {
+    "containerWidth": 0,
+    "id": null,
+    "isVisible": false,
+    "meta": {},
+    "nextVisible": false,
+    "pos": 10,
+    "width": 0
+  },
+  "form": {},
+  "initialModel": {
+    "classicHost": "https://www.verkkokauppa.com",
+    "product": {
+      "ageLimit": 0,
+      "availability": {
+        "addToCartButtonText": "Lisää ostoskoriin",
+        "addToCartTooltipText": "",
+        "availabilityString": "Avoinna",
+        "isInStoresOnly": false,
+        "isPurchasable": true,
+        "isReleased": true,
+        "isReserved": null,
+        "isStockVisible": true,
+        "message": "",
+        "pid": 399341,
+        "state": "immediately",
+        "statusMessage": "",
+        "stockReserved": 0,
+        "storeStocks": {
+          "hki": {
+            "isAvailable": false,
+            "location": "js",
+            "maxDays": null,
+            "minDays": null,
+            "state": "n/a",
+            "stockShelf": "0",
+            "stockTotal": "-25",
+            "stockWarehouse": "-25",
+            "title": "Helsingin myymälä",
+            "warehouse": "myymala"
+          },
+          "kioski": {
+            "isAvailable": false,
+            "location": "js",
+            "maxDays": null,
+            "minDays": null,
+            "state": "n/a",
+            "stockShelf": "0",
+            "stockTotal": "-25",
+            "stockWarehouse": "-25",
+            "title": "Helsingin 24 h kioski",
+            "warehouse": "kioski"
+          },
+          "oul": {
+            "isAvailable": false,
+            "location": "oul",
+            "maxDays": null,
+            "minDays": null,
+            "state": "n/a",
+            "stockShelf": "0",
+            "stockTotal": "0",
+            "stockWarehouse": false,
+            "title": "Oulun myymälä",
+            "warehouse": "myymala"
+          },
+          "pir": {
+            "isAvailable": false,
+            "location": "pir",
+            "maxDays": null,
+            "minDays": null,
+            "state": "n/a",
+            "stockShelf": "0",
+            "stockTotal": "0",
+            "stockWarehouse": false,
+            "title": "Pirkkalan myymälä",
+            "warehouse": "myymala"
+          },
+          "rai": {
+            "isAvailable": true,
+            "location": "rai",
+            "maxDays": 0,
+            "minDays": 0,
+            "state": "immediately",
+            "stockShelf": "8",
+            "stockTotal": "8",
+            "stockWarehouse": false,
+            "title": "Raision myymälä",
+            "warehouse": "myymala"
+          }
+        },
+        "webStocks": {
+          "main": {
+            "handlingDays": 0,
+            "isAvailable": true,
+            "maxDays": null,
+            "minDays": null,
+            "state": "delayed",
+            "stockShelf": "",
+            "stockWarehouse": "0",
+            "title": "Toimitettavissa verkosta"
+          },
+          "other": {
+            "isAvailable": true,
+            "state": "delayed",
+            "stockShelf": "",
+            "stockWarehouse": "yli 25",
+            "title": "Valmistaja"
+          }
+        }
+      },
+      "brandId": "13",
+      "brandName": "Asus",
+      "brandSlug": "asus",
+      "bulletPoints": [
+        "AMD RX 580",
+        "8 Gt GDDR5",
+        "Huipputason pelinäytönohjain"
+      ],
+      "categoryId": "11468c",
+      "demoLocations": [],
+      "depositPrice": null,
+      "descriptionLong": "<p>Asus Radeon RX 580 8 Gt muistilla.</p><p><strong>Ominaisuudet:</strong></p><ul><li>GPU: AMD Radeon RX 580 1360 - 1380 MHz</li><li>Muisti: 8&nbsp;Gt / 256-bit GDDR5 / 8000 MHz</li><li>Liitännät: 1 x DVI-D, 2 x&nbsp;HDMI, 2&nbsp;x&nbsp;Display Port</li><li>PCI Express 3.0 x16</li><li>AMD Eyefinity -tuki</li><li>AMD Freesync -tuki</li><li>AMD Crossfire -tuki</li></ul>",
+      "descriptionShort": "Asus Radeon RX 580 8 Gt muistilla.",
+      "discountAmount": 0,
+      "discountPercentage": 0,
+      "discounts": [],
+      "ean": "4712900735451",
+      "financing": {
+        "companyFinancing": {
+          "installments": [
+            {
+              "annualInterestRate": 43.36,
+              "fee": 178.2,
+              "interest": 14.9,
+              "monthlySum": "20",
+              "months": 36,
+              "totalAmount": 713.93
+            },
+            {
+              "annualInterestRate": 44.93,
+              "fee": 118.8,
+              "interest": 14.9,
+              "monthlySum": "26",
+              "months": 24,
+              "totalAmount": 618.57
+            },
+            {
+              "annualInterestRate": 46.09,
+              "fee": 59.4,
+              "interest": 14.9,
+              "monthlySum": "44",
+              "months": 12,
+              "totalAmount": 524.78
+            }
+          ],
+          "uiLabels": {
+            "price": "20,00/kk",
+            "text": "Apuraha yrityksille",
+            "time": "(36 kk)",
+            "tooltip": [
+              "20,00/kk - 36 kk maksuajalla",
+              "26,00/kk - 24 kk maksuajalla",
+              "44,00/kk - 12 kk maksuajalla"
+            ]
+          }
+        },
+        "installments": [
+          {
+            "annualInterestRate": 40.54,
+            "fee": 94.8,
+            "interest": 14.9,
+            "monthlySum": 25,
+            "months": 24,
+            "totalAmount": 593.27
+          },
+          {
+            "annualInterestRate": 41.43,
+            "fee": 71.1,
+            "interest": 14.9,
+            "monthlySum": 31,
+            "months": 18,
+            "totalAmount": 552.33
+          },
+          {
+            "annualInterestRate": 42.31,
+            "fee": 47.4,
+            "interest": 14.9,
+            "monthlySum": 43,
+            "months": 12,
+            "totalAmount": 511.76
+          },
+          {
+            "annualInterestRate": 42.8,
+            "fee": 35.55,
+            "interest": 14.9,
+            "monthlySum": 55,
+            "months": 9,
+            "totalAmount": 491.51
+          },
+          {
+            "annualInterestRate": 43.2,
+            "fee": 23.7,
+            "interest": 14.9,
+            "monthlySum": 79,
+            "months": 6,
+            "totalAmount": 471.24
+          },
+          {
+            "annualInterestRate": 42.55,
+            "fee": 11.85,
+            "interest": 14.9,
+            "monthlySum": 151,
+            "months": 3,
+            "totalAmount": 450.8
+          }
+        ],
+        "pid": 399341,
+        "uiLabels": {
+          "price": "25,00/kk",
+          "text": "Apurahalla",
+          "time": "(24 kk)",
+          "tooltip": [
+            "25,00/kk - 24 kk maksuajalla",
+            "31,00/kk - 18 kk maksuajalla",
+            "43,00/kk - 12 kk maksuajalla",
+            "55,00/kk - 9 kk maksuajalla",
+            "79,00/kk - 6 kk maksuajalla",
+            "151,00/kk - 3 kk maksuajalla"
+          ]
+        }
+      },
+      "hidePriceEstimate": true,
+      "href": "/fi/product/36314/jckvt/Asus-DUAL-RX580-O8G-Radeon-RX-580-OC-8-Gt-naytonohjain-PCI-e",
+      "images": [
+        {
+          "host": "cdn-c.verkkokauppa.com",
+          "path": "/images/86/2_399341-3928x2712.jpeg"
+        },
+        {
+          "host": "cdn-c.verkkokauppa.com",
+          "path": "/images/10/2_399341-448x352.jpeg"
+        },
+        {
+          "host": "cdn-b.verkkokauppa.com",
+          "path": "/images/25/2_399341-472x272.jpeg"
+        },
+        {
+          "host": "cdn-a.verkkokauppa.com",
+          "path": "/images/40/2_399341-145x456.jpeg"
+        }
+      ],
+      "ingredients": {
+        "fi": null,
+        "sv": null
+      },
+      "isActive": true,
+      "isBundle": false,
+      "isBundled": false,
+      "isElectronicProduct": false,
+      "isPriceVisible": true,
+      "isVakProduct": false,
+      "labels": {
+        "discount": {
+          "amount": "(0,00€)",
+          "percentage": "0%",
+          "text": "Säästä"
+        },
+        "price": "Hinta"
+      },
+      "links": [
+        {
+          "href": "https://www.asus.com/Graphics-Cards/DUAL-RX580-O8G/",
+          "name": "Tuoteinfo"
+        },
+        {
+          "href": "http://www.asus.com/fi/",
+          "name": "Linkki valmistajan kotisivuille"
+        }
+      ],
+      "manufacturerProductCode": "90YV0AQ1-M0NA00",
+      "maxAmountPerOrder": 5,
+      "name": "Asus DUAL-RX580-O8G Radeon RX 580 OC 8 Gt ‐näytönohjain PCI-e-väylään",
+      "originalPrice": null,
+      "originalPriceWithoutTax": null,
+      "package": {
+        "depth": 370,
+        "height": 70,
+        "volume": 5698000,
+        "weight": 1080,
+        "width": 220
+      },
+      "pid": 399341,
+      "price": "429,90",
+      "priceWithoutTax": "346,69",
+      "pricesForRepresentation": {
+        "originalPriceWithTaxFormatted": null,
+        "priceWithTaxFormatted": "429,90"
+      },
+      "productId": "36314",
+      "productsNewer": [],
+      "productsOlder": [],
+      "productsRecommended": [],
+      "questionsAndAnswers": [],
+      "rating": {
+        "averageOverallRating": 3,
+        "pid": 399341,
+        "recommendedCount": 2,
+        "reviewCount": 3
+      },
+      "restrictions": {
+        "description": "",
+        "descriptionShort": "",
+        "isRestricted": false,
+        "pickupAllowed": [],
+        "postalCodeAllowed": []
+      },
+      "retargeting": {
+        "improve": "2441",
+        "sanoma": "7119",
+        "verkossa": "87587890"
+      },
+      "returns": {
+        "percentage": 1.26,
+        "rating": 4
+      },
+      "reviews": [],
+      "ribbons": [],
+      "service": {
+        "percentage": 1.54,
+        "rating": 3
+      },
+      "shopAreas": [
+        {
+          "floor": 1,
+          "locationId": 9,
+          "shopAreaName": "Komponentit"
+        },
+        {
+          "floor": 1,
+          "locationId": 10,
+          "shopAreaName": "Komponentit"
+        },
+        {
+          "floor": 2,
+          "locationId": 6,
+          "shopAreaName": "Komponentit"
+        }
+      ],
+      "stockChanges": {
+        "latestShipments": [
+          {
+            "date": "2018-03-13T15:54:39+02:00",
+            "pcs": 8
+          },
+          {
+            "date": "2018-03-13T14:35:19+02:00",
+            "pcs": 8
+          },
+          {
+            "date": "2018-02-22T09:59:10+02:00",
+            "pcs": 26
+          },
+          {
+            "date": "2018-02-15T17:20:09+02:00",
+            "pcs": 26
+          },
+          {
+            "date": "2018-02-15T17:20:09+02:00",
+            "pcs": 24
+          }
+        ],
+        "latestSold": [
+          {
+            "date": "2018-03-15T10:04:47+02:00",
+            "pcs": 2
+          },
+          {
+            "date": "2018-03-15T10:04:46+02:00",
+            "pcs": 1
+          },
+          {
+            "date": "2018-03-14T17:00:35+02:00",
+            "pcs": 1
+          },
+          {
+            "date": "2018-03-14T15:19:19+02:00",
+            "pcs": 2
+          },
+          {
+            "date": "2018-03-08T10:50:01+02:00",
+            "pcs": 1
+          }
+        ]
+      },
+      "support": "Asus huolto- ja tukipalvelu ma - pe klo 10.00 - 18.00.\r\nPuh: +358 (0)9 69 37 96 90.",
+      "taxRate": "24",
+      "warranty": "36"
+    },
+    "ratingStatistics": {
+      "mostHelpful": {
+        "Badges": {},
+        "ContextDataValues": {
+          "Age": {
+            "DimensionLabel": "Age?",
+            "Id": "Age",
+            "Value": "35to44",
+            "ValueLabel": "35 to 44"
+          },
+          "FrequencyOfBuy": {
+            "DimensionLabel": "How often do you buy from us in a year?",
+            "Id": "FrequencyOfBuy",
+            "Value": "12to20",
+            "ValueLabel": "11 to 20 times"
+          }
+        },
+        "Id": "97915001",
+        "IsRecommended": true,
+        "Photos": [],
+        "ProductId": "399341",
+        "ProductRecommendationIds": [],
+        "Rating": 4,
+        "ReviewText": "Kevyesti tehtaalla ylikellotettu kortti joka pysyy hiljaa idlessä eikä pyöritä tuulettimia ennenkuin lämmöt alkaa mennä 50 asteen puolelle. Mahtui mukavasti miniAtx koteloon ja syö vain yhden 8 pinnisen virtakaapelin.\n\nKortin muistin määrä pitäisi riittää myös vähän pidemmälle tulevaisuuteen pelien tekstuurien kasvaessa ja näytönohjain kiihdytettyjen työpöytäohjelmien määrän lisääntyessä. \n\nPelaan FullHD näytöllä joten tällä kortilla uusimmatkin pelit pyörivät noin 60fps tai yli ilman että näyttävyydestä tarvitsee tinkiä.\n\nCinebenchissä GPU tulos 100-105fps.\n\nKortti on toiminut hyvin niin peleissä ja videotyöskentelyssä.\n\nTäysin mutkatonta tämän kortin käytön aloitus ei kuitenkaan ollut...\n\nDeus Ex - Mankind Divided benchmarkin ekalla ajolla very high asetuksilla lähti suoraan alkumetreiltä koko kone tilttiin ja tovi käynnistys looppia ilman windowsiin pääsyä.\n\nKoneen noustua pystyyn ja foorumeilla asian selvittelyn jälkeen syylliseksi paljastui Asuksen versiot Gpu Tweakistä ja Relivestä (muutaman päivän vanhat).\n\nRatkaisu oli ottaa vanhat pois ja clean asennus Amd sivuilta haetusta Crimson Relive 17.11.4 paketista (non-whql-win10-64bit-radeon-software-crimson-relive-17.11.4-nov27) eikä mitään muuta näytönohjain ohjelmia koneelle. \n\nLisäksi foorumilla joku enemmän tietävä käski säätää Radeonin hallinta paneelista, kohdasta Gaming > Global Settings > Global Wattman  Nämä asetukset päälle jos ei suoraan ole :\nGPU Frequency -> Dynamic / Voltage Control -> Automatic / FAN Speed - > Automatic / MEMORY Frequency -> Dynamic / Voltage Control -> Automatic\n\nTämän jälkeen meni Benchmark läpi oletus High asetuksilla 60fps vauhtiin, sähköposti ohjelmat ja virustutkat päällä eikä mitään muita ongelmia ole ollut ja pelit pyörii hyvin.\n\nAikaisemmassa koneessa oli Nvidian Geforce experience kaatuilun aiheuttaja että eipä taida paljon valmistajan vaihtaminen auttaa nyky näytönohjainten kanssa.\n\nPienellä ajurivarauksella siis voin suositella tätä korttia.",
+        "SecondaryRatings": {
+          "Aanitaso": {
+            "DisplayType": "NORMAL",
+            "Id": "Aanitaso",
+            "Label": "Äänitaso",
+            "MaxLabel": null,
+            "MinLabel": null,
+            "Value": 5,
+            "ValueLabel": null,
+            "ValueRange": 5
+          },
+          "TuotteenLaatu": {
+            "DisplayType": "NORMAL",
+            "Id": "TuotteenLaatu",
+            "Label": "Tuotteen laatu",
+            "MaxLabel": null,
+            "MinLabel": null,
+            "Value": 4,
+            "ValueLabel": null,
+            "ValueRange": 5
+          },
+          "VastinettaRahalle": {
+            "DisplayType": "NORMAL",
+            "Id": "VastinettaRahalle",
+            "Label": "Vastinetta rahalle",
+            "MaxLabel": null,
+            "MinLabel": null,
+            "Value": 5,
+            "ValueLabel": null,
+            "ValueRange": 5
+          }
+        },
+        "SubmissionTime": "2017-12-07T20:08:18.000+00:00",
+        "Title": "VR ja 1080HD pelaamiseen tehoa järkevään hintaan",
+        "TotalCommentCount": 0,
+        "TotalNegativeFeedbackCount": 0,
+        "TotalPositiveFeedbackCount": 12,
+        "UserNickname": "JaniL"
+      },
+      "mostNegative": {
+        "Badges": {},
+        "ContextDataValues": {
+          "Age": {
+            "DimensionLabel": "Age?",
+            "Id": "Age",
+            "Value": "35to44",
+            "ValueLabel": "35 to 44"
+          }
+        },
+        "Id": "97489912",
+        "IsRecommended": false,
+        "Photos": [],
+        "ProductId": "399341",
+        "ProductRecommendationIds": [],
+        "Rating": 1,
+        "ReviewText": "ei näihin amd:n vehkeisiin näköjään kannata näppejään tunkea voi voi. Normibasetuksilla lämmöt80-90 ja peli pykii, nykii ja kaatuilee. Freesyncciä ei saa päälle. Noh täytyy toi romurauta palauttaa ja oottaa hetki ja ostaa kunnon näyttos ennemmin... ymmärtäsin jos olis joku tykki peli mut ei... ymmärrän miksi tää susierä myytiin tarjouksessa... en suosittele tuotetta kenellekkään.",
+        "SecondaryRatings": {},
+        "SubmissionTime": "2017-11-25T14:17:13.000+00:00",
+        "Title": "surkeinta ikinä",
+        "TotalCommentCount": 1,
+        "TotalNegativeFeedbackCount": 86,
+        "TotalPositiveFeedbackCount": 8,
+        "UserNickname": "anonyymimyymi"
+      },
+      "statistics": {
+        "AverageOverallRating": 3,
+        "RatingDistribution": [
+          {
+            "Count": 1,
+            "RatingValue": 1
+          },
+          {
+            "Count": 2,
+            "RatingValue": 4
+          }
+        ],
+        "RecommendedCount": 2,
+        "SecondaryRatingsAverages": {
+          "Aanitaso": {
+            "AverageRating": 4.5,
+            "Id": "Aanitaso"
+          },
+          "TuotteenLaatu": {
+            "AverageRating": 3,
+            "Id": "TuotteenLaatu"
+          },
+          "VastinettaRahalle": {
+            "AverageRating": 4.5,
+            "Id": "VastinettaRahalle"
+          }
+        },
+        "TotalReviewCount": 3
+      }
+    },
+    "relatedProducts": {
+      "newer": [],
+      "older": [],
+      "recommended": []
+    }
+  },
+  "lastViews": {
+    "hasFailed": false,
+    "isLoading": false,
+    "items": [],
+    "scrollMax": 0,
+    "scrollPos": 0,
+    "scrollSize": 0
+  },
+  "notFound": {},
+  "oAuth": {
+    "canUseOAuthAPI": false,
+    "error": "",
+    "linkedProviderId": "",
+    "loadProviderId": "",
+    "loadType": "",
+    "smsEmail": "",
+    "user": null
+  },
+  "privacy": {
+    "isLoaded": false,
+    "settings": []
+  },
+  "productPaginator": {
+    "pageSize": 0
+  },
+  "products": {
+    "itemsByPid": {},
+    "pidTimestamp": {},
+    "pids": [],
+    "pidsFailed": [],
+    "pidsFetching": []
+  },
+  "richrelevance": {
+    "promos": {},
+    "recommendations": {}
+  },
+  "searchSuggestions": {
+    "activeItem": null,
+    "id": "",
+    "isLoading": false,
+    "items": [],
+    "latestValueOfItems": null,
+    "value": ""
+  },
+  "selectedShipment": {
+    "isLoading": false,
+    "store": "web"
+  },
+  "serverMode": true,
+  "shipmentEstimate": {
+    "estimate": false,
+    "isLoading": false,
+    "locationError": false,
+    "postcode": "00220",
+    "postcodeError": false,
+    "updatedAt": null
+  },
+  "sisu": {
+    "content": null,
+    "hasFailed": true,
+    "isLoading": false,
+    "meta": {}
+  },
+  "snackbar": {
+    "lifecycle": "",
+    "queue": []
+  },
+  "sticky": {
+    "addToCart": false,
+    "category": false
+  }
+}

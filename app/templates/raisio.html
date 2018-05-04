@@ -1,0 +1,37 @@
+<!doctype html>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<link rel="stylesheet" href="{{url_for('static', filename='style.css')}}?{{timestamp}}" media="screen">
+
+<title>Акции в Райсио {{week}} verkkokauppa</title>
+
+<h1>Акции в Райсио {{week}}</h1>
+
+<div class="grid">
+{% for row in data %}
+  {% set price = row.price|float %}
+  <div class="grid-item {%if row.expire%}expired{%endif%}" >
+    {%if row.expire%}
+    <div class="red">
+      Акция закончилась
+    </div>
+    {%endif%}
+    <div id="name">
+      <a title="Перейти на сайт продавца" href="https://www.verkkokauppa.com/fi/search?query={{row.pid}}">{{row.name}}</a>
+    </div>
+
+    <div class="{%if row.expire%}strikethrough{%endif%} description">
+      <p>{{row.descriptionShort}}</p>
+    </div>
+    <div id="price">
+      <p><span>По акции:</span> <b>{{price}} € ≈ {{(cur_eur|float|round(1,'ceil')*price)|round(-2,'ceil')|int}} ₽</b></p>
+      <p><span>На экспорт:</span> <b>{{(price*0.8)|round(2, 'ceil')}} € ≈ {{(cur_eur|float|round(1,'ceil')*price*0.8)|round(-2,'ceil')|int}} ₽</b></p>
+      <p><span>Инвоис:</span> <b>{{(price*0.2)|round(2)}} € ≈ {{(cur_eur|float|round(1,'ceil')*(price*0.2))|round(-2,'ceil')|int}} ₽</b></p>
+    </div>
+    <div class="img" style="background-image:url({{row.image}})"/></div>
+
+  </div>
+{% endfor %}
+</div>
+
+<script type="text/javascript" src="{{url_for('static', filename='script.js')}}?{{timestamp}}"></script>
