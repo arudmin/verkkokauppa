@@ -30,6 +30,7 @@ r = redis.from_url(os.environ["REDIS_URL"], charset="utf-8", decode_responses=Tr
 
 bot = telebot.TeleBot(os.environ['TELEGRAM_TOKEN'])
 # bot = telebot.AsyncTeleBot(os.environ['TELEGRAM_TOKEN'])
+bot.polling(none_stop=True)
 
 translator = Translator()
 
@@ -741,8 +742,6 @@ _указано финское время (на час назад по МСК)_\
 🔗 Официальная группа в [ВКонтакте](https://vk.com/verkkokauppa_com)
 📧 Эл. почта (отвечают по-русски): russki@verk.com
 """
-
-bot.polling(none_stop=True)
 
 # if __name__ == '__main__':
 #     bot.polling(none_stop=True)
